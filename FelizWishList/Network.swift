@@ -35,7 +35,7 @@ class Network: ObservableObject {
                 return
             }
             if let response = try? JSONDecoder().decode(Response.self, from: data) {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                DispatchQueue.main.async {
                     self?.games.append(contentsOf: response.values)
                     self?.page += 1
                 }
