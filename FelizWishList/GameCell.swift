@@ -9,7 +9,6 @@ import SwiftUI
 
 struct GameCellModel {
     var image: String = "https://cdn.akamai.steamstatic.com/steam/apps/990080/header_292x136.jpg?t=1676056674"
-//    var title: String = "Hogwarts Legacy Hogwarts Legacy Hogwarts Legacy Hogwarts Legacy Hogwarts Legacy Hogwarts Legacy"
     var title: String = "Hogwarts Legacy"
     var reviews: String = "VERY POSITIVE"
     var releaseDate: String = "10 FEB"
